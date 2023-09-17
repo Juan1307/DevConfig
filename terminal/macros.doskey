@@ -1,0 +1,23 @@
+:: Laravel commands
+
+pa=php artisan $1
+pal=php artisan list 
+pas=php artisan serve $1
+pat=php artisan tinker
+pam=php artisan make:$1 
+pamc=php artisan make:controller $1
+pamm=php artisan make:model $1
+pam-req=php artisan make:request $1 
+pam-res=php artisan make:resource $1
+par-ls=php artisan route:list
+pam-rul=php artisan make:rule $1
+
+:: MSDOS commands
+..=cd ../..
+.=cd ..
+net-ports=netstat -ano | find "$1" | find "ESTABLISHED" | find "LISTENING"
+net-port-kill=TASKKILL /F /PID $1
+
+:: LINUX commands
+ls-i=ls -l -A -h
+

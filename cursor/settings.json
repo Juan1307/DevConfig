@@ -1,0 +1,34 @@
+{
+    "svelte.enable-ts-plugin": true,
+    "workbench.colorTheme": "Egoist One",
+
+    "editor.fontSize": 11,
+    "editor.cursorStyle": "block",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "on",
+    "editor.fontVariations": false,
+    // "editor.formatOnSave": true, formatear al guardar
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#662900",
+        "tab.unfocusedActiveBackground": "#4b15005d",
+        "editor.background": "#252222e7",
+        "editor.inactiveSelectionBackground": "#ff977d1a",
+        "editor.selectionBackground": "#915f4875"
+    },
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": true,
+    // tailwind css
+    "files.associations": {
+        "*.css":"tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext":"html,astro,vue,jsx,tsx,svelte,js"
+    },
+    "terminal.integrated.cursorBlinking": true
+}
