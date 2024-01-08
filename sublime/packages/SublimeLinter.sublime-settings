@@ -1,0 +1,15 @@
+// SublimeLinter Settings - User
+{
+	// "debug": true,
+	"linters": {
+		"eslint": {
+			"selector": "text.html.vue, source.js, source.ts, source.jsx, source.tsx - meta.attribute-with-value"
+		}
+	},
+	"paths": {
+		"linux": [],
+		"osx": [],
+		"windows": ["C:/Users/juan_/AppData/Roaming/nvm/v18.14.0"] // === your current version === 
+	},
+	"show_marks_in_minimap": false,
+}

@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Bootstrap 4 Autocomplete",
+		"ColorHelper",
+		"Dark Knight Color Scheme",
+		"Emmet",
+		"GraphQL",
+		"Laravel Blade Highlighter",
+		"Laravel Docs",
+		"LSP",
+		"LSP-svelte",
+		"LSP-volar",
+		"Package Control",
+		"PHP Companion",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"Svelte",
+		"Syntax Highlighting for PostCSS",
+		"Tailwind CSS",
+		"Vue Syntax Highlight",
+	],
+}

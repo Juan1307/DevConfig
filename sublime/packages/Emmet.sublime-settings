@@ -1,0 +1,13 @@
+{
+	"telemetry": true,
+	"uid": "5e41b607-7a5a-42cc-a8e5-6a5eb3e81080",
+	"config":{
+		"html": {
+				"snippets": {
+					 "!vue":"(template>div{...code})+(script[setup][lang=ts])",
+					 "vset":"script[setup][lang=ts]",
+					 "vtem":"template>div{...code}"
+				}
+		  },
+	}
+}

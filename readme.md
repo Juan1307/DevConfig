@@ -3,7 +3,8 @@
 Anotaciones y configuración para: **win-terminal**, **cursor-editor** y **.git**
 
 - Windows Terminal.
-- Cursor Editor.
+- VS Code.
+- Sublime Text 3.
 - Git.
 
 ## ```/terminal```
@@ -24,19 +25,29 @@ Configuración inicial para la terminal de windows con persistencia a comandos y
 - MSDOS commands: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
 - PROMP syntaxt: https://ss64.com/nt/prompt.html
 
-## ```/editor```
+## ```/vscode```
 
 Configuración para **cursor-editor** y cambiar los _**shortcuts**_, _**themes**_ y  _**extensions**_:
 
 **- SHORTCUTS**: Para configurar los shortcut parecidos a los de sublime instalar la extension ```Sublime Text Keymap and Settings Importer``` e ir a **Preferences>Open Keyboard shortcuts JSON** y copiar el json de ```/editor/keybindings.json```.
 
-**- THEMES**: Para configurar parte del tema agregar el tema **EgoistOne** e ir a **Preference>Open User Settings Json** y copiar el json de ```/editor/settings.json```.
+**- THEMES && EXTENSIONS**: Para configurar parte del tema agregar el tema **EgoistOne** e ir a **Preference>Open User Settings Json** y copiar el json de ```/editor/settings.json```.
 
-**- EXTENSIONS**: --- sin config ---
+## ```/sublime```
+
+Configuración para **sublime text 3** y cambiar  los _**shortcuts**_, _**snippets**_ y  _**extensions & lsp**_:
+
+**- SHORTCUTS**: Para configurar los shortcuts se encuentran en la base de la carpeta```/sublime``` para setear la configuración copiar y pegar los archivos en ```C:\Users\{user}\AppData\Roaming\Sublime Text\Packages\User```.
+
+**- SNIPPETS**: Para los snippets copiar los archivos de la carpeta ```/sublime/snippets``` en la ruta ```C:\Users\{user}\AppData\Roaming\Sublime Text\Packages\User```.
+
+**- EXTENSIONS & LSP**: El listado de paquetes en el archivo: ```/sublime/Package Control.sublime-settings```, para la configuración de los ```lsp & otros``` en ```/sublime/packages```, recomendable instalar los paquetes primero y luego configurar según _package_.
+
+- **Nota:** Para los template literals en el archivo https://gist.github.com/mikermcneil/cfaf0c63a50fe56fd85d1d8dd9f27f4b
 
 ## ```/git```
 
-Configuracion para .git:
+Configuración para .git:
 
-- Usar el archivo config de ```/git``` y el archivo ```config``` para administrar **.ssh** en la ruta ```C:\Users\antik\.ssh```.
-- Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de ```C:\Users\antik```.
+- Usar el archivo config de ```/git``` y el archivo ```config``` para administrar **.ssh** en la ruta ```C:\Users\{user}\.ssh```.
+- Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de ```C:\Users\{user}```.

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+return [__function__, __class__, ${1}];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ret</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

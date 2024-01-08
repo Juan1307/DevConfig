@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+public function ${1}(Request \$request) 
+{
+	\$current = \$request->all();
+	return [__function__, __class__, \$current];
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pubfn_req</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

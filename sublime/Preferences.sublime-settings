@@ -1,0 +1,12 @@
+{
+	"detect_indentation": false,
+	"tab_size": 3,
+	"translate_tabs_to_spaces": false,
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Dark Knight.sublime-color-scheme",
+	"auto_complete_triggers": [ {"selector": "text.html.vue", "characters": "q",}],
+}
