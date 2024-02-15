@@ -12,6 +12,10 @@ pam-res=php artisan make:resource $1
 par-ls=php artisan route:list
 pam-rul=php artisan make:rule $1
 
+:: NODE commands
+dev=npm run dev
+build=npm run build
+
 :: MSDOS commands
 ..=cd ../..
 .=cd ..
@@ -22,5 +26,5 @@ net-ports=call C:\bat\net-ports.bat $1 $2
 net-port-kill=TASKKILL /F /PID $1
 pwd-cp=call C:\bat\pwd-cp.bat
 
-:: LINUX commands
+:: Linux commands
 ls-i=ls -l -A -h
