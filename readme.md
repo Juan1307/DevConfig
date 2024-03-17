@@ -50,4 +50,4 @@ Configuración para **sublime text 3** y cambiar  los _**shortcuts**_, _**snippe
 Configuración para .git:
 
 - Usar el archivo config de ```/git``` y el archivo ```config``` para administrar **.ssh** en la ruta ```C:\Users\{user}\.ssh```.
-- Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de ```C:\Users\{user}```.
+- Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de - ```C:\Users\{user}```.
