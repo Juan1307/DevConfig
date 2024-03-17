@@ -19,6 +19,10 @@ build=npm run build
 :: MSDOS commands
 ..=cd ../..
 .=cd ..
+s=start
+s.=start .
+q=exit
+c=code $1
 
 :: By batch file
 net-ports=netstat -ano | find $1 | find "LISTENING"
