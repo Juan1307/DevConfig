@@ -12,6 +12,13 @@ pam-res=php artisan make:resource $1
 par-ls=php artisan route:list
 pam-rul=php artisan make:rule $1
 
+:: Code igniter
+ss=php spark serve $1 $2
+smc=php spark make:controller $1
+smm=php spark make:model $1
+sme=php spark make:entity $1
+smv=php spark make:validation $1
+
 :: NODE commands
 dev=npm run dev
 build=npm run build
