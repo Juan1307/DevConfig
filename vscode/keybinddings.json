@@ -69,5 +69,23 @@
         "key": "ctrl+k ctrl+l",
         "command": "-editor.action.transformToLowercase",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.action.chat.newChat",
+        "when": "hasChatProvider && inChat"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newChat",
+        "when": "hasChatProvider && inChat"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "aichat.newchataction"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-aichat.newchataction"
     }
 ]
