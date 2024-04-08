@@ -51,3 +51,7 @@ Configuración para .git:
 
 - Usar el archivo config de ```/git``` y el archivo ```config``` para administrar **.ssh** en la ruta ```C:\Users\{user}\.ssh```.
 - Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de - ```C:\Users\{user}```.
+
+## ```web.config```
+
+- Archivo de configuración para windows server by (kj91024).
