@@ -1,5 +1,4 @@
 :: Laravel commands
-
 pa=php artisan $1
 pal=php artisan list 
 pas=php artisan serve $1
@@ -19,9 +18,13 @@ smm=php spark make:model $1
 sme=php spark make:entity $1
 smv=php spark make:validation $1
 
-:: NODE commands
+:: NODE|BUN commands
 dev=npm run dev
 build=npm run build
+preview=npm run preview
+bdev=bun run dev
+bbuild=bun run build
+bpreview=bun run preview
 
 :: MSDOS commands
 ..=cd ../..

@@ -5,11 +5,16 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.wordWrap": "on",
     "editor.fontVariations": false,
-    "editor.tabSize": 4,
+    // "editor.tabSize": 4,
     "editor.detectIndentation": false,
+    // eslint
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "eslint.format.enable": true,
     // === workbench custom ===
     // "editor.formatOnSave": true, /* formatear al guardar */
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "Monokai Classic Icons",
     "workbench.colorCustomizations": {
         "tab.activeBackground": "#662900",
         "tab.unfocusedActiveBackground": "#4b15005d",
@@ -115,11 +120,6 @@
         },
     },
     // === tailwind css ===
-    "files.associations": {
-        "*.css": "tailwindcss",
-        "*.json": "jsonc",
-        "*.php:vue": "vue"
-    },
     "editor.quickSuggestions": {
         "strings": "on"
     },
@@ -133,9 +133,6 @@
     "explorer.confirmDelete": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "biome_lsp.trace.server": "verbose",
-    "[json]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -144,7 +141,27 @@
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "cursor.cpp.disabledLanguages": [],
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar",
+    "vetur.validation.template": false,
+    "eslint.useFlatConfig": true,
+    "prisma.showPrismaDataPlatformNotification": false,
+    "CodeGPT.Autocomplete.enabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "files.associations": {
+        "*_tw.css": "tailwindcss",
+        "*_tw.module.css": "tailwindcss"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
     }
 }
