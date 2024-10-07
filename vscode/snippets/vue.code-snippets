@@ -1,0 +1,62 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"vue 3 setup template": {
+		"scope": "vue",
+		"prefix": "!vue3",
+		"body": [
+			"<template>",
+			"   <section>",
+			"       ${1:Section}",
+			"   </section>",
+			"</template>",
+			"<script setup>",
+			"</setup>"
+		],
+		"description": "Skeleton vue 3 setup"
+	},
+    "vue 2 option template": {
+		"scope": "vue",
+		"prefix": "!vue2",
+		"body": [
+			"<template>",
+			"   <section>",
+			"       ${1:Section}",
+			"   </section>",
+			"</template>",
+			"<script>",
+			"export default {",
+			"  data() {",
+			"    return {",
+			"    }",
+			"  },",
+			"  computed: {",
+			"  },",
+			"  methods: {",
+			"  }",
+			"}",
+			"</setup>"
+		],
+		"description": "Skeleton vue 2 options api"
+    },
+    "vue 3 full setup template": {
+		"scope": "vue",
+		"prefix": "!vue3-full",
+		"body": [
+			"<template>",
+			"   <section>",
+			"       ${1:Section}",
+			"   </section>",
+			"</template>",
+			"<script setup>",
+			"import { ref, computed, onMounted } from 'vue';",
+			"</setup>"
+		],
+		"description": "Skeleton vue 3 setup"
+	},
+}

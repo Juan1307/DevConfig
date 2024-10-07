@@ -1,0 +1,26 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[includeIf "gitdir:C:/dev/work"]
+	path = ./.gitconfig-work
+[includeIf "gitdir:C:/dev/main"]
+	path = ./.gitconfig-main
+[alias]
+	st = status -s -b
+	cam = !git add . && git commit -m
+	br = branch
+	lg = log --oneline --decorate --all --graph
+	ch = checkout
+	cm = commit -m
+	po = push origin
+	pu = pull origin
+	gbl-l = config --global --list
+	gbl-u = config --global --unset
+	rs = reset
+[user]
+	email = atk@github.com
+	name = atk
+[core]
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe

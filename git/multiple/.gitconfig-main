@@ -1,0 +1,5 @@
+[user]
+	name=atk
+	email=atk@github.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_main"

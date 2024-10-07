@@ -33,6 +33,8 @@ Configuración para **cursor-editor** y cambiar los _**shortcuts**_, _**themes**
 
 **- THEMES && EXTENSIONS**: Para configurar parte del tema agregar el tema **EgoistOne** e ir a **Preference>Open User Settings Json** y copiar el json de ```/editor/settings.json```.
 
+**- SNIPPETS**: Para los snippets copiar ```/vscode/snippets``` en ```...\AppData\Roaming\Cursor\User\snippets```.
+
 ## ```/sublime```
 
 Configuración para **sublime text 3** y cambiar  los _**shortcuts**_, _**snippets**_ y  _**extensions & lsp**_:
@@ -51,6 +53,7 @@ Configuración para .git:
 
 - Usar el archivo config de ```/git``` y el archivo ```config``` para administrar **.ssh** en la ruta ```C:\Users\{user}\.ssh```.
 - Usat el archivo ```.gitconfig``` para setear los atajos en **git** en la ruta base de - ```C:\Users\{user}```.
+- Para menjar multiples claves **ssh** [guia-windows](https://youtu.be/6lA0oPoFCAE), ejemplos en el folder ```/git/multiple```, recuerda añadir los shh keys en la ruta correspondiente. 
 
 ## ```web.config```
 

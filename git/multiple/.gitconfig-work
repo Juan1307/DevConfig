@@ -1,0 +1,5 @@
+[user]
+	name=juanwork
+	email=juanwork@github.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_work"

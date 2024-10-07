@@ -1,0 +1,14 @@
+ServerAliveInterval 60
+ServerAliveCountMax 2
+
+#work account
+Host work
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_work
+
+#main account
+Host main
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_main
